@@ -13,7 +13,7 @@ module.exports = merge(common, {
   devServer: {
     liveReload: true,
     static: {
-      directory: path.join(__dirname, '/dist'),
+      directory: path.join(__dirname, './dist'),
     },
     port: 8080
   },
